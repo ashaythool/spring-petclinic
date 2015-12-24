@@ -408,6 +408,14 @@
             </plugin>
         </plugins>
     </reporting>
-
+    
+    <distributionManagement>
+          <snapshotRepository>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+          </snapshotRepository>
+    </distributionManagement>
+    
     <url>demopetclinic</url>
 </project>
