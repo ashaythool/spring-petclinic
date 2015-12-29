@@ -409,9 +409,9 @@
         </plugins>
     </reporting>
     
-    <distributionManagement>
+   <distributionManagement>
       <snapshotRepository>
-        <id>nexus</id>
+        <id>snapshots</id>
         <url>http://localhost:8085/nexus/content/repositories/snapshots</url>
       </snapshotRepository>
     </distributionManagement>
