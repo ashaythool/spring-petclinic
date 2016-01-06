@@ -414,6 +414,10 @@
         <id>snapshots</id>
         <url>http://192.168.56.20:8081/nexus/content/repositories/snapshots/</url>
       </snapshotRepository>
+    <repository>
+        <id>releases</id>
+        <url>http://192.168.56.20:8081/nexus/content/repositories/releases</url>
+    </repository>
     </distributionManagement>
     
     <url>demopetclinic</url>
